@@ -25,6 +25,7 @@ def sort_array_asc(array)
  end
  end 
 end
+<<<<<<< HEAD
 
 def sort_array_char_count(array)
   array.sort_by do |a| a.length
@@ -71,4 +72,19 @@ def add_s(array)
     end
   end
 end
+=======
+>>>>>>> 55f86ee3e0d4f975ab0385adda566aea2af428ef
 
+def sort_array_char_count(array)
+  array.sort_by do |a| a.length
+    
+  end
+end
+
+def swap_elements(array)
+  array[0,1,3] = array[1,0,3] 
+  array
+end
+  
+  
+  
