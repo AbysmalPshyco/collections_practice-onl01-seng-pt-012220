@@ -11,7 +11,7 @@ def sort_array_asc(array)
    end
   end
  end
- sort_array_desc(array)
+ sort_array_desc
 # def sort_array_desc(array)
 #   array.sort do |a,b| 
 #     if a == b 
