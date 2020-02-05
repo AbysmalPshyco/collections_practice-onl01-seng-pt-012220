@@ -12,79 +12,79 @@ def sort_array_asc(array)
   end
  end
  
-# def sort_array_desc(array)
-#   array.sort do |a,b| 
-#     if a == b 
-#     0 
-#     elsif
-#     a < b 
-#     +1 
-#   elsif
-#   a > b 
-#   -1
-# end
-# end 
-# end
-# <<<<<<< HEAD
+def sort_array_desc(array)
+  array.sort do |a,b| 
+    if a == b 
+    0 
+    elsif
+    a < b 
+    +1 
+  elsif
+  a > b 
+  -1
+end
+end 
+end
+<<<<<<< HEAD
 
-# def sort_array_char_count(array)
-#   array.sort_by do |a| a.length
+def sort_array_char_count(array)
+  array.sort_by do |a| a.length
     
-#   end
-# end
+  end
+end
 
-# def swap_elements(array)
-#   array[1], array[2] = array[2], array[1]
-#   array
-# end
+def swap_elements(array)
+  array[1], array[2] = array[2], array[1]
+  array
+end
 
-# def reverse_array(array)
-#   array.reverse
-# end
+def reverse_array(array)
+  array.reverse
+end
 
-# def kesha_maker(array)
+def kesha_maker(array)
   
-# array.each do |item|
-#     item[2] = "$"
-#   end
-# end
+array.each do |item|
+    item[2] = "$"
+  end
+end
 
-# def find_a(array)
-#   array.find_all do |word|
-#     word[0] == "a"
-#   end
-# end
+def find_a(array)
+  array.find_all do |word|
+    word[0] == "a"
+  end
+end
 
-# def sum_array(array)
-#   sum = 0
-#   array.each do |num|
-#     sum+=num
-#   end
-#   sum
-# end
+def sum_array(array)
+  sum = 0
+  array.each do |num|
+    sum+=num
+  end
+  sum
+end
 
-# def add_s(array)
-# array.collect do |word|
-#     if array[1] == word
-#       word
-#     else
-#       word + "s"
-#     end
-#   end
-# end
-# =======
-# >>>>>>> 55f86ee3e0d4f975ab0385adda566aea2af428ef
+def add_s(array)
+array.collect do |word|
+    if array[1] == word
+      word
+    else
+      word + "s"
+    end
+  end
+end
+=======
+>>>>>>> 55f86ee3e0d4f975ab0385adda566aea2af428ef
 
-# def sort_array_char_count(array)
-#   array.sort_by do |a| a.length
+def sort_array_char_count(array)
+  array.sort_by do |a| a.length
     
-#   end
-# end
+  end
+end
 
-# def swap_elements(array)
-#   array[0,1,3] = array[1,0,3] 
-#   array
-# end
+def swap_elements(array)
+  array[0,1,3] = array[1,0,3] 
+  array
+end
   
   
   
